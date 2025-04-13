@@ -28,3 +28,9 @@ body{
     transition: transform 0.25s, box-shadow 0.25s;
     padding: 15px
 }
+
+.book-card:hover{
+    transform: translateY(-5px); /* negavtive it moves up the y-axis, postive moved down the y-axis*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+
+}
