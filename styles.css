@@ -1,3 +1,12 @@
+:root{
+    --card-background:#ffffff;
+    --card-border:#e7adad;
+    --card-box-shadow:#d20c0c;
+    --grid-background:#db7fb2;
+    --card-book-author:#8525ae;
+
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -13,18 +22,18 @@ body{
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    background: #f0f8ff;
+    background: var(--grid-background);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
 .book-card{
-    background: #ffffff;
-    border: 1px solid #ddd;
+    background: var(--card-background);
+    border: 1px solid var(--card-border);
     border-radius: 8px;
     overflow: hidden;
     text-align: center;
-    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px var(--card-box-shadow);
     transition: transform 0.25s, box-shadow 0.25s;
     padding: 15px
 }
@@ -50,7 +59,7 @@ body{
 
 .book-card .book-author{
     font-size: 1rem;
-    color: #8e44ad;
+    color: var(--card-book-author);
     margin: 5px 0;
 }
 
