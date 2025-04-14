@@ -1,9 +1,10 @@
 :root{
     --card-background:#ffffff;
     --card-border:#e7adad;
-    --card-box-shadow:#d20c0c;
-    --grid-background:#db7fb2;
-    --card-book-author:#8525ae;
+    --card-box-shadow:#e2c6d7;
+    --grid-background:#f0f8ff;
+    --card-book-author:#8e44ad;
+    --new-background:#e7adad;
 
 }
 
@@ -67,5 +68,24 @@ body{
     font-size: 0.9rem;
     color: #7f8c8d;
     margin: 5px 0;
+}
+
+.new-container{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.new{
+    background-color:var(--new-background) ;
+    color: black;
+    padding: 5px;
+    width: 100px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 0;
 }
 
